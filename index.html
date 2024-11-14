@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ABCs of CSS Technology</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+        <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</p>
+        
+        <div class="cards">
+            <div class="card" id="cardA">
+                <div class="result" id="resultA">
+                    <img src="./assets/img/css-letter-a_7451d34b43c69ea5016b8159aa44f2fb.png" alt="A is for aspect-ratio">
+                    <button onclick="toggleResult('A')">Hide Result</button>
+                </div>
+                <button onclick="toggleResult('A')" class="show-button">A</button>
+            </div>
+            <div class="card" id="cardB">
+                <div class="result" id="resultB">
+                    <img src="./assets/img/css-letter-b_27851810240e04b5519b43053908664c.png" alt="B is for border">
+                    <button onclick="toggleResult('B')">Hide Result</button>
+                </div>
+                <button onclick="toggleResult('B')" class="show-button">B</button>
+            </div>
+            <div class="card" id="cardC">
+                <div class="result" id="resultC">
+                    <img src="./assets/img/css-letter-c_b298c6b0d10db6078885d824f1813af2.png" alt="C is for colors">
+                    <button onclick="toggleResult('C')">Hide Result</button>
+                </div>
+                <button onclick="toggleResult('C')" class="show-button">C</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
